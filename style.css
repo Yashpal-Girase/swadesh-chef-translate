@@ -1,0 +1,71 @@
+#txt-area{
+    height:5rem;
+    width:50%;
+    display: block;
+    margin: 1rem auto;
+    padding:10px;
+    background:transparent;
+
+}
+h2{
+    display:block;
+    margin:0.5rem auto;
+    padding : 1rem;
+    text-align: center;
+}
+#btn-translate{
+   display:block;
+   margin:0.5rem auto;
+   padding:1rem;
+   background-color:hsl(145, 81%, 65%) ;
+}
+#output{
+    border:1px solid black;
+    height:4rem;
+    width:49%;
+    margin : 1rem auto;
+    padding: 1rem;
+    margin-bottom: 3rem auto;
+}
+.heroHeading{
+    /* color:white; */
+    padding:1rem 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #00BFA6;
+    margin : 2rem;
+}
+.container{
+    
+   background-size: 15rem;
+   background-position-x: right;
+   background-position-y: 100%;
+   
+}
+hr{
+    width:50% ;
+    margin-bottom:2rem;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #00BFA6;
+    color: rgb(235, 240, 230);
+    text-align: center;
+    padding:2.5rem 0rem;
+    font-size:larger ;
+    font-weight: bolder;
+}
+@media only screen and (max-width:600px) {
+    .container{
+    background-image: url("emoji.png");
+     background-repeat: no-repeat;
+   background-size: 10rem;
+   background-position-x: left;
+   background-position-y: 80%;
+    }
+   
+    
+}
